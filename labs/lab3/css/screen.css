@@ -235,9 +235,25 @@ input[type="submit"] {
   padding: 8px;
 }
 
+/*add css elements for checkbox*/
+input[type="checkbox"] {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  content: "";
+  background-color: #D3D3D3;
+  /*no solid borders*/
+}
+
 input {
   font-family: 'Roboto Condensed', sans-serif;
 }
+
+html {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+
 /*Favor an open design with plenty of padding and white space.
 /*Adding whitespace*/
 
