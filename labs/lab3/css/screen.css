@@ -202,8 +202,15 @@ label {
   display: block;
 }
 
-/* ===== LAYOUT STYLES ====== */
+/*Design a mobile-scale form that uses only shades of gray (no solid borders) for the input
+regions*/
 
+/*input type = "email"*/
+input[type="email"] {
+  background-color: lightgray;
+}
 
-/* ===== STATE STYLES ======= */
-
+/*input type = "submit"*/
+input[type="submit"] {
+  background-color: lightgray;
+}
