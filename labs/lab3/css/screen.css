@@ -204,16 +204,29 @@ label {
 
 /*Design a mobile-scale form that uses only shades of gray (no solid borders) for the input
 regions*/
+h1 {
+  text-align: center;
+  /*how much padding should I add to the bottom?*/
+  padding-bottom: 1em;
+  font-size: 32px; /*Since I have Safari*/
+}
+
+/*Add css elements for sign up and learn 5 secrets to fight Diabetes!*/
 
 /*input type = "email"*/
 input[type="email"] {
   background-color: lightgray;
   border: 0;
+  padding: 8px;
 }
 
 /*input type = "submit"*/
 input[type="submit"] {
   background-color: lightgray;
   border: 0;
+  padding: 8px;
 }
+
+/*Favor an open design with plenty of padding and white space.
+/*Adding whitespace*/
 
