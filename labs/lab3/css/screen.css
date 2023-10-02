@@ -213,16 +213,17 @@ h1 {
 
 /*Add css elements for sign up and learn 5 secrets to fight Diabetes!*/
 
+
 /*input type = "email"*/
 input[type="email"] {
-  background-color: lightgray;
+  background-color: #D3D3D3;
   border: 0;
   padding: 8px;
 }
 
 /*input type = "submit"*/
 input[type="submit"] {
-  background-color: lightgray;
+  background-color: #D3D3D3;
   border: 0;
   padding: 8px;
 }
