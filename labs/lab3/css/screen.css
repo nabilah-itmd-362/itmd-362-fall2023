@@ -209,9 +209,16 @@ h1 {
   /*how much padding should I add to the bottom?*/
   padding-bottom: 1em;
   font-size: 32px; /*Since I have Safari*/
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
-/*Add css elements for sign up and learn 5 secrets to fight Diabetes!*/
+/*Add css elements for "sign up and learn 5 secrets to fight Diabetes!"*/
+p {
+  text-align: center;
+  padding-bottom: 1em;
+  font-size: 24px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
 
 
 /*input type = "email"*/
@@ -228,6 +235,9 @@ input[type="submit"] {
   padding: 8px;
 }
 
+input {
+  font-family: 'Roboto Condensed', sans-serif;
+}
 /*Favor an open design with plenty of padding and white space.
 /*Adding whitespace*/
 
