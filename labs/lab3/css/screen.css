@@ -211,6 +211,7 @@ h1 {
   font-size: 32px; /*Since I have Safari*/
   font-family: 'Roboto Condensed', Helvetica, sans-serif;
   font-weight: 400;
+  /*adjust padding*/
 }
 
 /*Add css elements for "sign up and learn 5 secrets to fight Diabetes!"*/
@@ -221,10 +222,12 @@ p {
   font-family: 'Roboto Condensed', Helvetica, sans-serif;
   font-weight: 300;
   padding-bottom: 1em;
+  /*adjust padding*/
 }
 
 
 /*input type = "email"*/
+/*adjust padding*/
 input[type="email"] {
   background-color: #D3D3D3;
   border: 0;
@@ -257,6 +260,7 @@ input {
 html {
   font-family: 'Roboto Condensed', Helvetica, sans-serif;
   font-weight: 300;
+  /*adjust padding*/
 }
 
 /*Favor an open design with plenty of padding and white space.
