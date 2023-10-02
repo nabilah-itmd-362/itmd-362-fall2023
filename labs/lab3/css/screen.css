@@ -208,9 +208,12 @@ regions*/
 /*input type = "email"*/
 input[type="email"] {
   background-color: lightgray;
+  border: 0;
 }
 
 /*input type = "submit"*/
 input[type="submit"] {
   background-color: lightgray;
+  border: 0;
 }
+
