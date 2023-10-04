@@ -221,12 +221,10 @@ form li {
 regions*/
 h1 {
   text-align: center;
-  /*how much padding should I add to the bottom?*/
   padding-bottom: 1rem;
   font-size: 2.618rem;
   font-family: 'Roboto Condensed', Helvetica, sans-serif;
   font-weight: 400;
-  /*adjust padding*/
 }
 
 /*Add css elements for "sign up and learn 5 secrets to fight Diabetes!"*/
@@ -238,13 +236,10 @@ p {
   font-family: 'Roboto Condensed', Helvetica, sans-serif;
   font-weight: 300;
   padding-bottom: 1rem;
-  /*adjust padding*/
   margin-top: 1.618rem;
 }
 
 
-/*input type = "email"*/
-/*adjust padding*/
 input[type="email"] {
   background-color: #D3D3D3;
   border: 0;
@@ -254,8 +249,6 @@ input[type="email"] {
 }
 
 /*Golden Ratio: 1rem, 1.618rem, 2.618rem, 4.236rem)*/
-
-/*input type = "submit"*/
 input[type="submit"] {
   background-color: #D3D3D3;
   border: 0;
@@ -265,7 +258,6 @@ input[type="submit"] {
 }
 
 /*Golden Ratio: 1rem, 1.618rem, 2.618rem, 4.236rem)*/
-/*add css elements for checkbox*/
 input[type="checkbox"] {
   position: relative;
   width: 22px;
