@@ -186,13 +186,6 @@ img, audio, video {
 
 /* ===== BASE STYLES ===== */
 
-/*
-  Major Sixth Modular Scale:
-  http://www.modularscale.com/?22&px&1.667&web&text
-*/
-
-/*Golden Ratio: 1rem, 1.618rem, 2.618rem, 4.236rem)*/
-
 body {
   font-size: 1.618rem;
   line-height: 1.5; 
@@ -201,8 +194,6 @@ body {
   font-weight: 300;
   background-color: #EDEDED;
 }
-
-/*Golden Ratio: 1rem, 1.618rem, 2.618rem, 4.236rem)*/
 
 label {
   display: inline;
@@ -216,7 +207,6 @@ form li {
   padding-bottom: 1.5rem;
 }
 
-/*Golden Ratio: 1rem, 1.618rem, 2.618rem, 4.236rem)*/
 /*Design a mobile-scale form that uses only shades of gray (no solid borders) for the input
 regions*/
 h1 {
@@ -228,7 +218,6 @@ h1 {
 }
 
 /*Add css elements for "sign up and learn 5 secrets to fight Diabetes!"*/
-/*Golden Ratio: 1rem, 1.618rem, 2.618rem, 4.236rem)*/
 p {
   text-align: center;
   padding-bottom: 1rem;
@@ -248,7 +237,6 @@ input[type="email"] {
   margin-top: 1rem;
 }
 
-/*Golden Ratio: 1rem, 1.618rem, 2.618rem, 4.236rem)*/
 input[type="submit"] {
   background-color: #D3D3D3;
   border: 0;
@@ -257,7 +245,6 @@ input[type="submit"] {
   margin-top: 1.618rem;
 }
 
-/*Golden Ratio: 1rem, 1.618rem, 2.618rem, 4.236rem)*/
 input[type="checkbox"] {
   position: relative;
   width: 22px;
@@ -279,7 +266,6 @@ ol {
 }
 
 /*Media query for mobile device*/
-/*Golden Ratio: 1rem, 1.618rem, 2.618rem, 4.236rem)*/
 @media screen and (max-width: 699px) and (min-width: 520px) {
   body{
     font-size: 1.125rem;
@@ -309,18 +295,21 @@ ol {
   }
 
   input[type="email"] {
+    background-color: #D3D3D3;
     padding: 0.5rem;
     width: 80%;
     margin-top: 0.5rem;
   }
 
   input[type="submit"] {
+    background-color: #D3D3D3;
     padding: 0.5rem;
     width:70%;
     margin-top: 0.5rem;
   }
 
   input[type="checkbox"] {
+    background-color: #D3D3D3;
     width: 1.125rem;
     height: 1.125rem;
     margin-top: 0.5rem;
