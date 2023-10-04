@@ -191,20 +191,23 @@ img, audio, video {
   http://www.modularscale.com/?22&px&1.667&web&text
 */
 
+/*Golden Ratio: 1rem, 1.618rem, 2.618rem, 4.236rem)*/
 
 body {
-  font-size: 20px;
-  line-height: 1.5; /* 26px / ~ 120% */
-  padding: 1.182em; /* 26px / ~ 120% */
+  font-size: 1.618rem;
+  line-height: 1.5; 
+  padding: 1.182em; 
   font-family:'Roboto Condensed', Helvetica, sans-serif;
   font-weight: 300;
   background-color: #EDEDED;
 }
 
+/*Golden Ratio: 1rem, 1.618rem, 2.618rem, 4.236rem)*/
+
 label {
   display: inline;
-  margin-bottom: 10px;
-  margin-right: 10px;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
 }
 
 /*Favor an open design with plenty of padding and white space.
@@ -283,4 +286,57 @@ ol {
   padding-top: 2.618rem;
 }
 
-/*Media query for mobile device
+/*Media query for mobile device*/
+/*Golden Ratio: 1rem, 1.618rem, 2.618rem, 4.236rem)*/
+@media screen and (max-width: 699px) and (min-width: 520px) {
+  body{
+    font-size: 1.125rem;
+    line-height: 1.5;
+    padding: 1rem;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+
+  form li {
+    padding-bottom: 1rem;
+  }
+
+  h1 {
+    padding-bottom: 0.5rem;
+    font-size: 2rem;
+  }
+
+  p {
+    padding-bottom: 0.5rem;
+    font-size: 1.25rem;
+    margin-top: 1rem;
+  }
+
+  input[type="email"] {
+    padding: 0.5rem;
+    width: 80%;
+    margin-top: 0.5rem;
+  }
+
+  input[type="submit"] {
+    padding: 0.5rem;
+    width:70%;
+    margin-top: 0.5rem;
+  }
+
+  input[type="checkbox"] {
+    width: 1.125rem;
+    height: 1.125rem;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  ol {
+    padding-top: 1rem;
+  }
+
+}
