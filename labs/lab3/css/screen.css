@@ -191,11 +191,11 @@ img, audio, video {
   http://www.modularscale.com/?22&px&1.667&web&text
 */
 
-html {
-  font-size: 1.375em; /* 22px */
-  line-height: 1.182em; /* 26px / ~ 120% */
+
+body {
+  font-size: 20px;
+  line-height: 1.5; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
-  text-rendering: optimizeLegibility;
   font-family:'Roboto Condensed', Helvetica, sans-serif;
   font-weight: 300;
   background-color: #EDEDED;
@@ -204,36 +204,39 @@ html {
 label {
   display: inline;
   margin-bottom: 10px;
+  margin-right: 10px;
 }
 
 /*Favor an open design with plenty of padding and white space.
 /*Adding whitespace*/
 form li {
-  padding-bottom: 1.182em;
+  padding-bottom: 1.5rem;
 }
 
-
+/*Golden Ratio: 1rem, 1.618rem, 2.618rem, 4.236rem)*/
 /*Design a mobile-scale form that uses only shades of gray (no solid borders) for the input
 regions*/
 h1 {
   text-align: center;
   /*how much padding should I add to the bottom?*/
-  padding-bottom: 1em;
-  font-size: 32px; /*Since I have Safari*/
+  padding-bottom: 1rem;
+  font-size: 2.618rem;
   font-family: 'Roboto Condensed', Helvetica, sans-serif;
   font-weight: 400;
   /*adjust padding*/
 }
 
 /*Add css elements for "sign up and learn 5 secrets to fight Diabetes!"*/
+/*Golden Ratio: 1rem, 1.618rem, 2.618rem, 4.236rem)*/
 p {
   text-align: center;
-  padding-bottom: 1em;
-  font-size: 24px;
+  padding-bottom: 1rem;
+  font-size: 1.618rem;
   font-family: 'Roboto Condensed', Helvetica, sans-serif;
   font-weight: 300;
-  padding-bottom: 1em;
+  padding-bottom: 1rem;
   /*adjust padding*/
+  margin-top: 1.618rem;
 }
 
 
@@ -242,18 +245,23 @@ p {
 input[type="email"] {
   background-color: #D3D3D3;
   border: 0;
-  padding: 15px;
+  padding: 1rem;
   width: 50%;
+  margin-top: 1rem;
 }
+
+/*Golden Ratio: 1rem, 1.618rem, 2.618rem, 4.236rem)*/
 
 /*input type = "submit"*/
 input[type="submit"] {
   background-color: #D3D3D3;
   border: 0;
-  padding: 8px;
+  padding: 1rem;
   width: 30%;
+  margin-top: 1.618rem;
 }
 
+/*Golden Ratio: 1rem, 1.618rem, 2.618rem, 4.236rem)*/
 /*add css elements for checkbox*/
 input[type="checkbox"] {
   position: relative;
@@ -262,7 +270,8 @@ input[type="checkbox"] {
   content: "";
   background-color: #D3D3D3;
   border: 0;
-  /*no solid borders*/
+  margin-top: 1.618rem;
+  margin-right: 1rem;
 }
 
 input {
@@ -271,5 +280,7 @@ input {
 }
 
 ol {
-  padding-top: 30px;
+  padding-top: 2.618rem;
 }
+
+/*Media query for mobile device
